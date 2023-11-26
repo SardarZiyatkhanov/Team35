@@ -1,0 +1,157 @@
+form button {
+    background-color: #007ACC;
+    color: #fff;
+    margin: auto; 
+  }
+  
+
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+
+  header {
+    background-color: #34495E;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+
+  footer {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  main {
+    background-color: #fff;
+    padding: 20px;
+  }
+
+
+
+form button {
+    background-color: #007ACC;
+    color: #fff;
+    margin: auto; 
+  }
+  
+ 
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  
+  header {
+    background-color: #007ACC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  footer {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+ 
+  main {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  
+  header .team-logo {
+    max-width: 100px; 
+    height: auto;
+  }
+#slider-image {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .fade-in {
+    opacity: 0;
+  }
+  
+  .fade-in:not(.fade-in) {
+    opacity: 1;
+  }
+
+
+
+.photo-carousel {
+    max-width: 800px; 
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative; 
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+
+  .carousel-image.active {
+    display: block;
+  }
+  
+
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007ACC;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

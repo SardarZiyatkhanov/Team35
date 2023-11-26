@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="media/CyberSolutions.png" alt="CyberSolutions Team Logo" class="team-logo"></a>
+      <h1>CyberSolutions</h1>
+      <nav>
+        <a href="index.html">Main</a>
+        <a href="ourteam.html">About Us</a>
+        <a href="hourofcode.html">Hour of Code Event</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="web.html">WebSite Project</a>
+      </nav>
+    </header>
+    <h1>Contact Us</h1>
+    <div class="info">
+      <div>
+        <h2>Sardar Ziyatkhanov</h2>
+        <p>Email: sziyatkhanov17499@ada.edu.az</p>
+      </div>
+      <div>
+        <h2>Malahat Hajiyeva</h2>
+        <p>Email: mhajiyeva19689@ada.edu.az</p>
+      </div>
+      <div>
+        <h2>Teymur Aliyev</h2>
+        <p>Email: taliyev16286@ada.edu.az</p>
+      </div>
+    </div>
+    <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required style="height: 140px; width: 320px;"></textarea>
+
+      <button type="submit"><a href="contact-us.html" style="text-decoration: none">Send</a></button>
+    </form>
+    <footer>
+      &copy; 2023 CyberSolutions Team - ADA University. All rights reserved.
+    </footer>
+  </body>
+</html>
